@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman",serif;
+}
+html {
+    font-family: "Times New Roman",serif;
+    color: #333;
+}
+#container {
+    width: 760px;
+    height: 460px;
+    margin: 2cm auto;
+    position: relative;
+    background: transparent url("../images/achtergrond.jpg");
+}
+#links {
+    position: absolute;
+    font-size: 0.9em;
+    bottom: 10px;
+    right: 100px;
+}
+/* start-pagina*/
+#s_container {
+    width: 760px;
+    height: 460px;
+    margin: 2cm auto;
+    position: relative;
+    border: solid 1px black;
+    background: transparent url("../Images/achtergrond.jpg");
+}
+
+#whitebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 99%;
+    height: 70px;
+    border-bottom: solid 2px black;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 15px;
+}
+div#sidebar {
+    height: 385px;
+    width: 25%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: auto;
+    padding-right: 10px;
+    margin-top: 3px;
+    float: left;
+}
+div#sidebar ul {
+    list-style: none !important;
+}
+div#sidebar li a {
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 2.5px;
+    padding: 7px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    
+}
+div#info{
+    position: relative;
+    margin:  40px 20px auto 220px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+div#adres{
+    position: relative;
+    border-bottom: solid 3px black;
+    margin:  120px 20px 10px 220px;
+}
+div#s_links {
+    margin-left: 240px;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+/*personalia*/
+div#p_kop {
+    font-size: 2em;
+    background: transparent url("assets\images\f68dfec665d40f1e1692b4ddc1048018.jpg");
+    border-bottom: solid 2px black;
+    margin: 0px 20px auto 20px;
+    padding-bottom: 10px;
+}
+div#p_info {
+    margin: 10px 30px auto 40px;
+    font-weight: bold;
+    width: 70%;
+    float: left;
+}
+div#p_image {
+    border: solid 1px black;
+    background: url("../images/20190905_1611502.jpg");
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+div#p_adres {
+    font-size: 1.1em;
+    border-bottom: solid 3px black;
+    margin: 300px 40px 0px 350px;
+    padding-bottom: 10px;
+}
+/*opleidingen*/
+#o_list {
+    font-size: 1.3em;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#o_kerntaak {
+    position: absolute;
+    float: left;
+    left: 50px;
+    top:180px;
+}
+#k_kerntaak {
+    font-size: 1.5em;
+}
+#kerntaak a {
+    color: black;
+    font-size: 1.1em;
+}
+/*links*/
+#l_kop {
+    left: 20px;
+    top: 20px;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+#l_table {
+    position: absolute;
+    left: 50px;
+    top: 125px;
+}
+/*kerntaak*/
+div#k_kop {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#k_info {
+    position: absolute;
+    left:30px;
+    top: 80px;
+}
